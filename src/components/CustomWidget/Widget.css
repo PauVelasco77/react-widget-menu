@@ -1,0 +1,43 @@
+:root {
+  background-color: #fff;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+.widget-container {
+  width: 300px;
+  background-color: #fff;
+  font-size: 20px;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  padding: 1rem 1rem;
+  border-radius: 8px;
+}
+
+.material-symbols-outlined {
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.underline {
+  position: absolute;
+  left: 1rem;
+  bottom: 10px;
+  width: 40px;
+  height: 3px;
+  background: red;
+  transition: 0.2s;
+}
+
+.content-container {
+  border-top: 1px solid #e9edc9;
+  height: 100px;
+  width: 100%;
+  background-color: #fff;
+  top: -10px;
+  position: relative;
+}
